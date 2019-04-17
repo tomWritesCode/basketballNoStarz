@@ -2,7 +2,7 @@ import React from "react";
 import styled from 'styled-components';
 
 const Title = styled.h1`
-  margin: 0;
+  margin-top: 0;
   color: white;
   font-family: sans-serif;
 
@@ -33,6 +33,7 @@ const Header = () => (
       background: `#2c3965`,
       textAlign: `center`,
       height: '90px',
+      width: '100%',
     }}
   >
     <div
@@ -42,9 +43,9 @@ const Header = () => (
       }}
     >
       <Title>
-        <img src="../static/icon.png" className="left" alt="Basketball" />
+        <img src="../static/icon.png" style={{height: '60px'}} className="left" alt="Basketball" />
           Basketball NoStarz 
-        <img src="../static/icon.png" className="right" alt="Basketball" />
+        <img src="../static/icon.png" style={{ height: '60px' }} className="right" alt="Basketball" />
       </Title>
     </div>
   </header>

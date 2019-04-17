@@ -19,7 +19,7 @@ const ScoreBoard = styled.div`
     .editMode{
       margin-top: -1px;
       height: calc( 100vh - 90px);
-      width: 100vw;
+      width: 98.3vw;
       background-color: #2c3965;
       color: white;
     }
